@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+
+
+body, html {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  background: linear-gradient(113deg, #000000, #2a8d4f, #3e6598, #a74436, #a74436);
+  /*background-size: 100% 100%;*/
+  z-index:0;
+
+  /*-webkit-animation: AnimationName 10s ease infinite;*/
+  /*-moz-animation: AnimationName 10s ease infinite;*/
+  /*animation: AnimationName 10s ease infinite;*/
+
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 72px;
+}
+
+img {
+  border: dotted 10px pink;
+}
+
+p {
+  z-index: 3;
+font-family: 'Schoolbell', cursive;
+
+  position: absolute;
+  color: yellow;
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, .5);
+  top: 50%;
+}
+
+#keepcalm {
+  z-index: 2;
+  position: absolute;
+  top: 100;
+  right: 0;
+  width: 200px;
+}
+
+#alex-hat {
+  position: absolute;
+  top: 10;
+  left: 0;
+  z-index: 2;
+  width: 300px;
+}
+
+#cat {
+  width: 200px;
+}
+
+#horse {
+  width: 500px;
+}
+
+#fireworks {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
